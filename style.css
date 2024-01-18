@@ -1,0 +1,76 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    text-transform: uppercase;
+    background-color: #5f27cd;
+    padding: 16px 0;
+    border-bottom: 16px solid #341f97;
+}
+
+#menu button, button {
+    text-transform: uppercase;
+    border: none;
+    color: white;
+    background-color: green;
+    padding: 10px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 16px 0;
+    background-color: #c8d6e5;
+    display: none;
+}
+
+form input {
+    padding: 10px;
+    width: 300px;
+    border-radius: 3px;
+    border: none;
+}
+
+#cancelar {
+    background-color: red;
+}
+
+ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* max-width: 40%; */
+    text-align: center;
+    margin-top: 10px;
+    
+    
+}
+
+ul li {
+    padding: 10px;
+    border-radius: 5px;
+    border: 2px solid black;
+    text-decoration: none;
+    width: 100%;
+    margin-top: 10px;
+}
+
+li:hover {
+    text-decoration: line-through
+}
+
+
+
